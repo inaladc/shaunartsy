@@ -86,6 +86,7 @@ $(function () {
         $(hash + "-lifting").slideToggle().addClass("open");
         $("#overlay").fadeIn(600);
         refreshOverlayScroller(hash);
+        animateOverlayContent(hash);
     }
     function openAndClose(hash) {
         if ($(hash + "-lifting").hasClass("open")) {
@@ -95,6 +96,7 @@ $(function () {
             $("#containerOT div.open").slideToggle().removeClass();
             $(hash + "-lifting").slideToggle().addClass("open");
             refreshOverlayScroller(hash);
+            animateOverlayContent(hash);
         }
     }
     $("#overlay").on("click", function () {
@@ -304,6 +306,31 @@ $(function () {
                 scroller.reset();
             }, 50);
         }
+    }
+
+    // Helper to animate content when overlay opens
+    function animateOverlayContent(hash) {
+        var overlay = $(hash + "-lifting");
+
+        // Select elements to animate
+        var elements = overlay.find(".page-title-content, .section-heading, .post-heading, .post-title, p, .post-box, .works-item, .facts, .contact-form, .btn");
+
+        // Kill existing animations
+        gsap.killTweensOf(elements);
+
+        // Set initial state (hidden and pushed down)
+        gsap.set(elements, { y: 30, opacity: 0 });
+
+        // Animate to visible state
+        gsap.to(elements, {
+            y: 0,
+            opacity: 1,
+            duration: 1,
+            stagger: 0.05,
+            ease: "power3.out",
+            delay: 0.2, // Wait for slideToggle to open a bit
+            clearProps: "transform" // Keep opacity 1, remove transform to avoid blurring or fixed positions
+        });
     }
 
     // 5. magnificPopup
