@@ -100,15 +100,39 @@
 }
 
 .post-box-photo-works-4 {
-  background-image: url(../img/graphics/works-4.jpg);
+  background-image: url(../img/works/works-4.jpg);
 }
 
 .post-box-photo-works-5 {
-  background-image: url(../img/graphics/works-5.jpg);
+  background-image: url(../img/works/works-5.jpg);
 }
 
 .post-box-photo-works-6 {
-  background-image: url(../img/graphics/works-6.jpg);
+  background-image: url(../img/works/works-6.jpg);
+}
+
+.post-box-photo-works-7 {
+  background-image: url(../img/works/works-7.jpg);
+}
+
+.post-box-photo-works-8 {
+  background-image: url(../img/works/works-8.jpg);
+}
+
+.post-box-photo-works-9 {
+  background-image: url(../img/works/works-9.jpg);
+}
+
+.post-box-photo-works-10 {
+  background-image: url(../img/works/works-10.jpg);
+}
+
+.post-box-photo-works-11 {
+  background-image: url(../img/works/works-11.jpg);
+}
+
+.post-box-photo-works-12 {
+  background-image: url(../img/works/works-12.jpg);
 }
 
 /* 1.4. services IMG BACKGROUND */
@@ -128,27 +152,56 @@
   background-image: url(../img/graphics/works-4.jpg);
 }
 
-
-/* 1.4. news IMG BACKGROUND */
-.post-box-photo-news-1 {
-  background-image: url(../img/digital/news-1.jpg);
+.post-box-photo-services-5 {
+  background-image: url(../img/graphics/works-5.jpg);
 }
 
-.post-box-photo-news-2 {
-  background-image: url(../img/digital/news-2.jpg);
+.post-box-photo-services-6 {
+  background-image: url(../img/graphics/works-6.jpg);
 }
 
-.post-box-photo-news-3 {
-  background-image: url(../img/digital/news-3.jpg);
+.post-box-photo-services-7 {
+  background-image: url(../img/graphics/works-7.jpg);
 }
 
-.post-box-photo-news-4 {
-  background-image: url(../img/news/news-4.jpg);
+.post-box-photo-services-8 {
+  background-image: url(../img/graphics/works-8.jpg);
 }
+
+.post-box-photo-services-9 {
+  background-image: url(../img/graphics/works-9.jpg);
+}
+
+.post-box-photo-services-10 {
+  background-image: url(../img/graphics/works-10.jpg);
+}
+
+.post-box-photo-services-11 {
+  background-image: url(../img/graphics/works-11.jpg);
+}
+
+.post-box-photo-services-12 {
+  background-image: url(../img/graphics/works-12.jpg);
+}
+
+.post-box-photo-services-13 {
+  background-image: url(../img/graphics/works-13.jpg);
+}
+
+.post-box-photo-services-14 {
+  background-image: url(../img/graphics/works-14.jpg);
+}
+
+.post-box-photo-services-15 {
+  background-image: url(../img/graphics/works-15.jpg);
+}
+
+
+
 
 /* 1.5. contact IMG BACKGROUND */
 .post-box-photo-contact {
-  background-image: url(../img/contact/contact.jpg);
+  background-image: url(../img/contact/contact.gif);
 }
 
 
