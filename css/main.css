@@ -1407,6 +1407,10 @@ h1.post-title.post-title-all-main-title {
   color: #39FF14;
 }
 
+.button-the.button-the-submit::before {
+  display: none;
+}
+
 .button-the::before {
   position: absolute;
   content: "";
