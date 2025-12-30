@@ -1391,8 +1391,20 @@ h1.post-title.post-title-all-main-title {
 
 .button-the.button-the-submit {
   border: none;
-  left: 15px;
-  top: 25px;
+  background: transparent;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px 0;
+  left: auto;
+  top: auto;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-the.button-the-submit:hover {
+  background: transparent;
+  color: #39FF14;
 }
 
 .button-the::before {
