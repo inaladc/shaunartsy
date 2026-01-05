@@ -34,8 +34,8 @@ $(function () {
 
     $(window).on("load", function () {
         // 1. preloader
-        $("#preloader").fadeOut(600);
-        $(".preloader-bg").delay(400).fadeOut(600);
+        $("#preloader").delay(1200).fadeOut(600);
+        $(".preloader-bg").delay(1600).fadeOut(600);
     });
 
     // 2. lifting control
@@ -475,7 +475,7 @@ $(function () {
                 $("form#form").slideUp("fast", function () {
                     $(this).before('<div class="success">Your email was sent successfully.</div>');
                 });
-            }).fail(function() {
+            }).fail(function () {
                 $("#submit").fadeIn("normal");
                 $("#form").append('<div class="error">Could not send message. (If testing locally, PHP will not run)</div>');
             });
